@@ -6,5 +6,5 @@ test("should call res.send() with Hello World!", () => {
   };
   hello({}, res);
   expect(send.mock.calls).toHaveLength(1);
-  expect(send.mock.calls[0][0]).toBe("Hello World!");
+  expect(send.mock.calls[0][0]).toBe("Hello Monad!");
 });
